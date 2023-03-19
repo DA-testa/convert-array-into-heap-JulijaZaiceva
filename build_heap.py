@@ -31,7 +31,7 @@ def main():
         data = list(map(int, input().split()))
     if txt[0]=='F':
         path = input()
-        file = open("./test/"+path,mode ="r")
+        file = open("./tests/"+path,mode ="r")
         lines = file.readlines()
         n = int(lines[0])
         data = list(map(int,lines[1].split()))
