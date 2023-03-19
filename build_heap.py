@@ -30,11 +30,11 @@ def main():
         n = int(input())
         data = list(map(int, input().split()))
     if txt[0]=='F':
-#         path = input()
-#         file = open("./test/"+path,mode ="r")
-#         lines = file.readlines()
-#         count = int(lines[0])
-#         num = lines[1].split()
+        path = input()
+        file = open("./test/"+path,mode ="r")
+        lines = file.readlines()
+        n = int(lines[0])
+        data = list(map(int,lines[1].split()))
 #     n = int(input())
 #     data = list(map(int, input().split()))
     assert len(data) == n
