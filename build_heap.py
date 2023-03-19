@@ -35,8 +35,6 @@ def main():
         lines = file.readlines()
         n = int(lines[0])
         data = list(map(int,lines[1].split()))
-#     n = int(input())
-#     data = list(map(int, input().split()))
     assert len(data) == n
     swaps = build_heap(data)
 
